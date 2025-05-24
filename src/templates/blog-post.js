@@ -111,3 +111,19 @@ export const pageQuery = graphql`
     }
   }
 `
+
+import { Giscus } from '@giscus/react'
+
+<Giscus
+  repo="Nabila55/my-gatsby-blog"
+  repoId="R_kgDOOutmUQ"
+  category="General"
+  categoryId="DIC_kwDOOutmUc4CqjIY"
+  mapping="pathname"
+  reactionsEnabled="1"
+  emitMetadata="0"
+  inputPosition="bottom"
+  theme="light"
+  lang="en"
+  loading="lazy"
+/>
